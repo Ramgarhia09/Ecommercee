@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 import SeacrhBar from './components/SeacrhBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Verify from './pages/verify'
+import Verify from "./pages/Verify";  // ✅ Match file name exactly
 
 
 const App = () => {
