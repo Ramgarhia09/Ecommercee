@@ -3,7 +3,7 @@ import { ShopContext } from '../context/ShopContext'
 import { useSearchParams } from 'react-router-dom'
 import axios from 'axios'
 import { toast } from 'react-toastify'
-import {backendUrl} from '../App.jsx'
+import { backendUrl } from '../../../admin/src/App'
 const Verify = () => {
 
 
