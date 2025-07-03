@@ -104,7 +104,7 @@ const Add = ({ token }) => {
           </label>
 
           <label htmlFor="image4">
-            <img className='w-20' src={!image4?assets.upload_area : URL.createObjectURL(image4s)} alt="" />
+            <img className='w-20' src={!image4?assets.upload_area : URL.createObjectURL(image4)} alt="" />
             <input  onChange={(e)=>setImage4(e.target.files[0])} type="file"id='image4' hidden />
           </label>
 
